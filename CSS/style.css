@@ -25,11 +25,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+.site-header img{
+    max-width: 80%;
+}
 .main-navigation{
     background-color: var(--primary);
     padding: 1rem 0;
 }
-.main-navigation ul {
+.main-navigation ul{
     max-width: 800px;
     margin: 0 auto;
     display: flex;
@@ -44,4 +47,12 @@ body {
 .main-navigation ul li {
     margin-bottom: 1rem;
     text-align: center;
+}
+.main-navigation ul li:last-of-type{
+    margin-bottom: 0;
+}
+.main-navigation ul li a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.4rem;
 }
